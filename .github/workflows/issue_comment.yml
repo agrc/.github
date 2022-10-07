@@ -1,0 +1,12 @@
+name: 'create reminder'
+
+on:
+  issue_comment:
+    types: [created, edited]
+
+jobs:
+  reminder:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo 'hello'
