@@ -1,12 +1,16 @@
-name: 'create reminder'
+name: On Any Comment
 
 on:
   issue_comment:
     types: [created, edited]
+  pull_request_review_comment:
+    types: [created, edited]
 
 jobs:
-  reminder:
+  handle_comment:
     runs-on: ubuntu-latest
-
     steps:
-      - run: echo 'hello'
+      - uses: actions/checkout@v3
+      - name: Handle comment
+        run: |
+          echo "A comment was created or edited in the repository: ${{ github.event.repository.name }}"
