@@ -1,8 +1,6 @@
 name: On Any Comment
 
 on:
-  organization:
-    type: member
   issue_comment:
     types: [created, edited]
   pull_request_review_comment:
