@@ -1,6 +1,8 @@
 name: On Any Comment
 
 on:
+  organization:
+    type: member
   issue_comment:
     types: [created, edited]
   pull_request_review_comment:
@@ -10,7 +12,6 @@ jobs:
   handle_comment:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
       - name: Handle comment
         run: |
           echo "A comment was created or edited in the repository: ${{ github.event.repository.name }}"
