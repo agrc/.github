@@ -1,6 +1,6 @@
 # UGRC General Copilot Instructions
 
-> Keep the copilot-instructions.md file concise (≤ ~2 pages). Update it whenever recurring clarification is needed.
+> Keep this per-repo Copilot instructions file concise (≤ ~2 pages). Update it whenever recurring clarification is needed.
 
 ## Commit Message Format
 
