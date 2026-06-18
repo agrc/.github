@@ -1,8 +1,6 @@
 
 ## Hey, this is us 👋
 
-![The UGRC logo colors](https://github.com/user-attachments/assets/fc8b949e-e26a-461b-8f19-9f804a76f884)
-
 Yes, we are facilitating and sharing GIS knowledge on GitHub. In fact, we’ve been doing this since **Mar 6, 2013**. That's when we made our first commit.
 
 ### Our Products
